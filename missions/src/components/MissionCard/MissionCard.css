@@ -1,0 +1,40 @@
+.Card {
+    padding: 10px; 
+    width: 200px;
+}
+#delete {
+    background-color: red;
+}
+#Progress {
+    background-color: rgb(35, 206, 35);
+}
+.MissionCard {
+    background-color: black;
+    height: 120px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    width: 1050px;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 0 500px;
+    
+}
+
+#Progress , #delete {
+    height: 50px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 30px;
+    cursor: pointer;
+}
+h4, p {
+    margin: 0;
+}
